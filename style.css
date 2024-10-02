@@ -1,0 +1,1169 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+:root {
+    --fontColor: white;
+    --navbarColor: rgb(169, 65, 248);
+    --background-color: rgb(0, 0, 0);
+    --borderderColor: rgb(255, 18, 18);
+    --imgBorderColor: rgb(42, 0, 254);
+}
+
+body {
+    background-color: var(--background-color);
+    color: var(--fontColor);
+}
+
+.navbar {
+    position: sticky;
+    top: 0px;
+}
+
+ul {
+    display: flow-root;
+    display: 2px solid black;
+    background-color: var(--navbarColor);
+
+}
+
+li {
+    float: left;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 600;
+    color: var(--fontColor);
+    list-style-position: inside;
+    padding: 20px 20px 20px 40px;
+
+}
+
+.chat {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    background-color: green;
+    border: 2px solid black;
+    border-radius: 8px;
+    width: 150px;
+    padding: 15px;
+}
+
+.login {
+    list-style: none;
+    float: right;
+}
+
+li:nth-child(5) {
+    text-align: center;
+    border: 2px solid beige;
+    margin: 14px;
+    padding: 0px 25px 10px 25px;
+}
+
+li:hover {
+    outline: 2px solid rgb(0, 255, 242);
+    outline-offset: -5px;
+    color: rgb(0, 255, 242);
+}
+
+li:nth-child(5):hover {
+    outline: 5px solid rgb(0, 255, 242);
+}
+
+.contains {
+    border: 2px solid var(--borderderColor);
+    width: 45vw;
+    height: 190vh;
+    margin: 50px 0px 0px 50px;
+}
+
+.contains:nth-child(1) {
+    float: right;
+    margin: 1px 50px 0px 0px;
+}
+
+.img1 {
+    border: 3px solid var(--imgBorderColor);
+    float: left;
+    width: 450px;
+}
+
+.img2 {
+    border: 3px solid var(--imgBorderColor);
+    float: right;
+    width: 450px;
+}
+
+.img3 {
+    border: 3px solid var(--imgBorderColor);
+    float: left;
+    height: 400px;
+}
+
+.img4 {
+    border: 3px solid var(--imgBorderColor);
+    height: 390px;
+    float: right;
+}
+
+.main {
+    border: 2px solid rgb(255, 54, 94);
+    font-size: 40px;
+    text-align: center;
+    font-family: "Mochiy Pop P One", sans-serif;
+    border-radius: 40px;
+    margin: 5vw;
+    height: 40vh;
+}
+
+.main2 {
+    padding-top: 100px;
+}
+
+.footer {
+    border: 2px solid rgb(20, 249, 172);
+    border-radius: 40px;
+    height: 58vh;
+    width: 90vw;
+    margin: auto;
+}
+
+.box {
+
+    padding: 20px 0px 0px 150px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.twitter {
+    padding: 0px 0px 17px 2px;
+    width: 20px;
+    background-color: rgb(0, 0, 0);
+}
+
+.facebook {
+    padding-bottom: 10px;
+    width: 35px;
+    background-color: rgb(0, 0, 0);
+}
+
+.linkedin {
+    padding-bottom: 10px;
+    width: 35px;
+    background-color: rgb(0, 0, 0);
+}
+
+.pinterest {
+    padding: 0px 0px 15px 0px;
+    width: 42px;
+    background-color: rgb(0, 0, 0);
+}
+
+.sigma {
+    background-color: grey;
+    width: 470px;
+    height: 110px;
+    padding-left: 20px;
+    margin-bottom: 1px;
+    font-size: 25px;
+}
+
+.web {
+    padding-top: 16px;
+    padding-right: 42px;
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.email {
+    background-color: grey;
+    width: 370px;
+    padding-top: 12px;
+    padding-left: 20px;
+    height: 65px;
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.subscribe {
+    padding-top: 1px;
+
+}
+
+.policy {
+    font-size: 15px;
+    color: grey;
+    ;
+
+}
+
+.aboutMe {
+    border: 2px solid rgb(206, 27, 255);
+    border-radius: 40px;
+    font-family: "Mochiy Pop P One", sans-serif;
+    width: 70pw;
+    height: 80vh;
+    font-size: 50px;
+    padding: 90px 50px 90px 90px;
+    margin: 80px;
+
+}
+
+.info {
+    font-size: 20px;
+    color: grey;
+}
+
+.contact {
+    padding: 20px 20px 20px 45px;
+    font-size: 16px;
+}
+
+a {
+    font-size: 16px;
+    color: rgb(99, 66, 232);
+}
+
+a:hover {
+    color: red;
+}
+
+.emaill {
+    font-size: 16px;
+    color: rgb(99, 66, 232);
+    padding: 23px 435px 20px 0px;
+}
+
+.me {
+    border: 4px dashed orange;
+    border-color: rgb(254, 30, 60) white rgb(66, 66, 255) rgb(99, 255, 64);
+    margin-right: 10px;
+    border-radius: 50px;
+    float: right;
+
+}
+
+
+@media only screen and (max-width:1375px) {
+    .me {
+        border: 4px dashed orange;
+        border-color: rgb(0, 246, 61) rgb(0, 255, 89) rgb(0, 254, 123) rgb(99, 255, 64);
+        border-radius: 50px;
+        position: relative;
+        top: 400px;
+        right: 150px;
+
+    }
+}
+
+@media only screen and (max-width:1282px) {
+    .me {
+        position: relative;
+        top: 200px;
+        right: 150px;
+    }
+
+}
+
+@media only screen and (max-width:1050px) {
+
+    .contains {
+        width: 80vw;
+        height: 100vh;
+    }
+
+    .contains:nth-child(1) {
+        float: left;
+    }
+
+    .main {
+        margin-top: 1500px;
+        width: 80vw;
+        height: 50vh;
+        margin-left: 85px;
+
+    }
+
+    .main2 {
+        font-size: 40px;
+    }
+
+    .footer {
+        height: 60vh;
+        width: 80vw;
+    }
+
+    .box {
+        padding: 10px 0px 0px 10px;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    }
+
+    .twitter {
+        padding: 0px 0px 17px 300px;
+        width: 20px;
+        background-color: rgb(0, 0, 0);
+    }
+
+    .facebook {
+        padding-bottom: 10px;
+        width: 35px;
+        background-color: rgb(0, 0, 0);
+    }
+
+    .linkedin {
+        padding-bottom: 10px;
+        width: 35px;
+        background-color: rgb(0, 0, 0);
+    }
+
+    .pinterest {
+        padding: 0px 0px 15px 0px;
+        width: 42px;
+        background-color: rgb(0, 0, 0);
+    }
+
+    .sigma {
+        background-color: grey;
+        width: 450px;
+        height: 70px;
+        padding-left: 10px;
+        margin-bottom: 5px;
+        font-size: 25px;
+    }
+
+    .web {
+        padding-top: 10px;
+        padding-right: 42px;
+        font-size: 16px;
+        font-weight: 400;
+    }
+
+    .email {
+        background-color: grey;
+        width: 540px;
+        padding-top: 52px;
+        padding-left: 10px;
+        height: 50px;
+        font-size: 10px;
+        font-weight: 400;
+    }
+
+    .subscribe {
+        padding-top: 1px;
+
+    }
+
+    .policy {
+        font-size: 15px;
+        color: rgb(230, 3, 3);
+        ;
+
+    }
+
+    .aboutMe {
+        border: 2px solid rgb(206, 27, 255);
+        border-radius: 40px;
+        font-family: "Mochiy Pop P One", sans-serif;
+        width: 70vw;
+        height: 950px;
+        font-size: 25px;
+        padding: 90px 0px 0px 20px;
+        margin-left: 125px;
+
+    }
+
+    .contact {
+        padding: 20px 0px 20px 9px;
+        margin: 0px 0px 0px 0px;
+        font-size: 16px;
+
+    }
+
+    a {
+        font-size: 16px;
+        color: rgb(99, 66, 232);
+    }
+
+    a:hover {
+        color: red;
+    }
+
+    .emaill {
+        font-size: 15px;
+        color: rgb(99, 66, 232);
+        padding: 0px 0px 0px 0px;
+        position: relative;
+        left: 50px;
+        top: -68px;
+        margin: 0px 0px 0px 0px;
+    }
+
+    .me {
+
+        border: 4px dashed orange;
+        border-color: rgb(254, 30, 60) white rgb(66, 66, 255) rgb(99, 255, 64);
+        border-radius: 50px;
+        margin-right: 160px;
+        position: relative;
+        bottom: 0px;
+        top: 490px;
+        right: 0px;
+        left: 50px;
+
+
+    }
+}
+
+@media only screen and (max-width:1000px) {
+    .main {
+        margin-top: 1900px;
+        width: 80vw;
+        height: 25vh;
+        margin-left: 80px;
+
+    }
+
+    .footer {
+        height: 30vh;
+        width: 78vw;
+    }
+
+}
+
+@media only screen and (max-width:795px) {
+    ul {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+
+    }
+
+    li {
+        font-size: larger;
+    }
+
+    li:nth-child(5) {
+        order: 1;
+    }
+
+    .main {
+        margin-top: 1900px;
+        width: 80vw;
+        height: 30vh;
+        margin-left: 80px;
+
+    }
+
+    .footer {
+        height: 40vh;
+        width: 78vw;
+    }
+
+    .me {
+        border: 4px dashed orange;
+        border-color: rgb(0, 246, 61) rgb(0, 255, 89) rgb(0, 254, 123) rgb(99, 255, 64);
+        border-radius: 50px;
+        position: relative;
+        top: 650px;
+        left: 35px;
+
+    }
+
+    .aboutMe {
+        border: 2px solid rgb(206, 27, 255);
+        border-radius: 40px;
+        font-family: "Mochiy Pop P One", sans-serif;
+        width: 70vw;
+        height: 1100px;
+        font-size: 25px;
+        padding: 90px 0px 0px 20px;
+        margin-left: 80px;
+
+    }
+}
+
+@media only screen and (max-width:710px) {
+    .contains {
+        width: 80vw;
+        height: 100vh;
+    }
+
+    .contains:nth-child(1) {
+        float: left;
+    }
+
+    .main {
+        margin-top: 1900px;
+        width: 80vw;
+        height: 40vh;
+        margin-left: 50px;
+
+    }
+
+    .main2 {
+        font-size: 30px;
+    }
+
+    .footer {
+        height: 70vh;
+        width: 78vw;
+    }
+
+    .box {
+        padding: 10px 0px 0px 10px;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    }
+
+    .twitter {
+        padding: 0px 0px 0px 0px;
+        width: 35px;
+        background-color: rgb(0, 0, 0);
+    }
+
+    .facebook {
+        padding-bottom: 0px;
+        width: 35px;
+        background-color: rgb(0, 0, 0);
+    }
+
+    .linkedin {
+        padding-bottom: 0px;
+        width: 35px;
+        background-color: rgb(0, 0, 0);
+    }
+
+    .pinterest {
+        padding: 0px 0px 0px 0px;
+        width: 42px;
+        background-color: rgb(0, 0, 0);
+    }
+
+    .sigma {
+        background-color: grey;
+        width: 340px;
+        height: 120px;
+        padding-left: 10px;
+        margin-bottom: 5px;
+        font-size: 35px;
+    }
+
+    .web {
+        padding-top: 35px;
+        padding-right: 42px;
+        padding-left: 0px;
+        font-size: 18px;
+        font-weight: 400;
+    }
+
+    .email {
+        background-color: grey;
+        width: 310px;
+        padding-top: 82px;
+        padding-left: 10px;
+        height: 100px;
+        font-size: 20px;
+        font-weight: 400;
+    }
+
+    .subscribe {
+        padding-top: 20px;
+
+    }
+
+    .policy {
+        font-size: 15px;
+        color: rgb(230, 3, 3);
+        padding-top: 40px;
+
+    }
+
+    .aboutMe {
+        border: 2px solid rgb(206, 27, 255);
+        border-radius: 40px;
+        font-family: "Mochiy Pop P One", sans-serif;
+        width: 70vw;
+        height: 1150px;
+        font-size: 25px;
+        padding: 90px 0px 0px 20px;
+        margin-left: 60px;
+
+    }
+
+    .contact {
+        padding: 20px 0px 20px 9px;
+        margin: 0px 0px 0px 0px;
+        font-size: 16px;
+
+    }
+
+    a {
+        font-size: 16px;
+        color: rgb(99, 66, 232);
+    }
+
+    a:hover {
+        color: red;
+    }
+
+    .emaill {
+        font-size: 15px;
+        color: rgb(99, 66, 232);
+        padding: 0px 0px 0px 0px;
+        position: relative;
+        left: 5px;
+        top: -38px;
+        margin: 0px 0px 0px 0px;
+    }
+
+    .me {
+
+        border: 4px dashed orange;
+        border-color: rgb(254, 30, 60) white rgb(66, 66, 255) rgb(99, 255, 64);
+        border-radius: 50px;
+        margin-right: 160px;
+        position: relative;
+        bottom: 0px;
+        top: 690px;
+        right: 0px;
+        left: 114px;
+
+
+    }
+}
+
+@media only screen and (max-width:470px) {
+    .contains {
+        width: 80vw;
+        height: 100vh;
+    }
+
+    .contains:nth-child(1) {
+        float: left;
+    }
+
+    .main {
+        margin-top: 2700px;
+        width: 80vw;
+        height: 20vh;
+        margin-left: 50px;
+
+    }
+
+    .main2 {
+        font-size: 14px;
+    }
+
+    .footer {
+        height: 60vh;
+        width: 78vw;
+    }
+
+    .box {
+        padding: 10px 0px 0px 10px;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    }
+
+    .twitter {
+        padding: 0px 0px 0px 0px;
+        width: 35px;
+        background-color: rgb(0, 0, 0);
+    }
+
+    .facebook {
+        padding-bottom: 0px;
+        width: 35px;
+        background-color: rgb(0, 0, 0);
+    }
+
+    .linkedin {
+        padding-bottom: 0px;
+        width: 35px;
+        background-color: rgb(0, 0, 0);
+    }
+
+    .pinterest {
+        padding: 0px 0px 0px 0px;
+        width: 42px;
+        background-color: rgb(0, 0, 0);
+    }
+
+    .sigma {
+        background-color: grey;
+        width: 200px;
+        height: 120px;
+        padding-left: 10px;
+        margin-bottom: 5px;
+        font-size: 25px;
+    }
+
+    .web {
+        padding-top: 35px;
+        padding-right: 42px;
+        padding-left: 0px;
+        font-size: 18px;
+        font-weight: 400;
+    }
+
+    .email {
+        background-color: grey;
+        width: 200px;
+        padding-top: 150px;
+        padding-left: 10px;
+        height: 60px;
+        font-size: 15px;
+        font-weight: 400;
+    }
+
+    .subscribe {
+        padding-top: 10px;
+
+    }
+
+    .policy {
+        font-size: 15px;
+        color: rgb(230, 3, 3);
+        padding-top: 10px;
+
+    }
+
+    .aboutMe {
+        border: 2px solid rgb(206, 27, 255);
+        border-radius: 40px;
+        font-family: "Mochiy Pop P One", sans-serif;
+        width: 70vw;
+        height: 1020px;
+        font-size: 25px;
+        padding: 90px 0px 0px 20px;
+        margin-left: 60px;
+
+    }
+
+    .contact {
+        padding: 20px 0px 20px 9px;
+        margin: 0px 0px 0px 0px;
+        font-size: 16px;
+
+    }
+
+    a {
+        font-size: 16px;
+        color: rgb(99, 66, 232);
+    }
+
+    a:hover {
+        color: red;
+    }
+
+    .emaill {
+        font-size: 10px;
+        color: rgb(99, 66, 232);
+        padding: 0px 0px 0px 0px;
+        position: relative;
+        left: 0px;
+        top: -38px;
+        margin: 0px 0px 0px 0px;
+    }
+
+    .me {
+
+        border: 4px dashed orange;
+        border-color: rgb(254, 30, 60) white rgb(66, 66, 255) rgb(99, 255, 64);
+        border-radius: 50px;
+        margin-right: 160px;
+        position: relative;
+        bottom: 0px;
+        top: 610px;
+        right: 0px;
+        left: 100px;
+        width: 200px;
+
+
+    }
+}
+
+@media only screen and (max-width:415px) {
+    .contains {
+        width: 80vw;
+        height: 100vh;
+    }
+
+    .contains:nth-child(1) {
+        float: left;
+    }
+
+    .main {
+        margin-top: 2700px;
+        width: 90vw;
+        height: 25vh;
+        margin-left: 50px;
+
+    }
+
+    .main2 {
+        font-size: 14px;
+    }
+
+    .footer {
+        height: 78vh;
+        width: 80vw;
+        margin-right: 10px;
+    }
+
+    .box {
+        padding: 10px 0px 0px 10px;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    }
+
+    .twitter {
+        padding: 0px 0px 0px 0px;
+        width: 35px;
+        background-color: rgb(0, 0, 0);
+    }
+
+    .facebook {
+        padding-bottom: 0px;
+        width: 35px;
+        background-color: rgb(0, 0, 0);
+    }
+
+    .linkedin {
+        padding-bottom: 0px;
+        width: 35px;
+        background-color: rgb(0, 0, 0);
+    }
+
+    .pinterest {
+        padding: 0px 0px 0px 0px;
+        width: 42px;
+        background-color: rgb(0, 0, 0);
+    }
+
+    .sigma {
+        background-color: grey;
+        width: 200px;
+        height: 120px;
+        padding-left: 10px;
+        margin-bottom: 5px;
+        font-size: 25px;
+    }
+
+    .web {
+        padding-top: 35px;
+        padding-right: 42px;
+        padding-left: 0px;
+        font-size: 18px;
+        font-weight: 400;
+    }
+
+    .email {
+        background-color: grey;
+        width: 200px;
+        padding-top: 150px;
+        padding-left: 10px;
+        height: 60px;
+        font-size: 15px;
+        font-weight: 400;
+    }
+
+    .subscribe {
+        padding-top: 10px;
+
+    }
+
+    .policy {
+        font-size: 15px;
+        color: rgb(230, 3, 3);
+        padding-top: 10px;
+
+    }
+
+    .aboutMe {
+        border: 2px solid rgb(206, 27, 255);
+        border-radius: 40px;
+        font-family: "Mochiy Pop P One", sans-serif;
+        width: 70vw;
+        height: 1020px;
+        font-size: 25px;
+        padding: 90px 0px 0px 20px;
+        margin-left: 75px;
+
+    }
+
+    .contact {
+        padding: 20px 0px 20px 9px;
+        margin: 0px 0px 0px 0px;
+        font-size: 16px;
+
+    }
+
+    a {
+        font-size: 16px;
+        color: rgb(99, 66, 232);
+    }
+
+    a:hover {
+        color: red;
+    }
+
+    .emaill {
+        font-size: 10px;
+        color: rgb(99, 66, 232);
+        padding: 0px 0px 0px 0px;
+        position: relative;
+        left: 0px;
+        top: -38px;
+        margin: 0px 0px 0px 0px;
+    }
+
+    .me {
+
+        border: 4px dashed orange;
+        border-color: rgb(254, 30, 60) white rgb(66, 66, 255) rgb(99, 255, 64);
+        border-radius: 50px;
+        margin-right: 160px;
+        position: relative;
+        bottom: 0px;
+        top: 610px;
+        right: 0px;
+        left: 120px;
+        width: 200px;
+
+
+    }
+}
+
+@media only screen and (max-width:370px) {
+    .contains {
+        width: 80vw;
+        height: 100vh;
+    }
+
+    .contains:nth-child(1) {
+        float: left;
+    }
+
+    .main {
+        margin-top: 2660px;
+        width: 90vw;
+        height: 25vh;
+        margin-left: 75px;
+
+    }
+
+    .main2 {
+        font-size: 14px;
+
+    }
+
+    .footer {
+        height: 80vh;
+        width: 90vw;
+        margin-right: -35px;
+    }
+
+    .box {
+        padding: 10px 0px 0px 10px;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    }
+
+    .twitter {
+        padding: 0px 0px 0px 0px;
+        width: 35px;
+        background-color: rgb(0, 0, 0);
+    }
+
+    .facebook {
+        padding-bottom: 0px;
+        width: 35px;
+        background-color: rgb(0, 0, 0);
+    }
+
+    .linkedin {
+        padding-bottom: 0px;
+        width: 35px;
+        background-color: rgb(0, 0, 0);
+    }
+
+    .pinterest {
+        padding: 0px 0px 0px 0px;
+        width: 42px;
+        background-color: rgb(0, 0, 0);
+    }
+
+    .sigma {
+        background-color: grey;
+        width: 200px;
+        height: 120px;
+        padding-left: 10px;
+        margin-bottom: 5px;
+        font-size: 25px;
+    }
+
+    .web {
+        padding-top: 35px;
+        padding-right: 42px;
+        padding-left: 0px;
+        font-size: 18px;
+        font-weight: 400;
+    }
+
+    .email {
+        background-color: grey;
+        width: 200px;
+        padding-top: 150px;
+        padding-left: 10px;
+        height: 60px;
+        font-size: 15px;
+        font-weight: 400;
+    }
+
+    .subscribe {
+        padding-top: 10px;
+
+    }
+
+    .policy {
+        font-size: 15px;
+        color: rgb(230, 3, 3);
+        padding-top: 10px;
+
+    }
+
+    .aboutMe {
+        border: 2px solid rgb(206, 27, 255);
+        border-radius: 40px;
+        font-family: "Mochiy Pop P One", sans-serif;
+        width: 90vw;
+        height: 1040px;
+        font-size: 20px;
+        padding: 90px 0px 0px 20px;
+        margin-left: 55px;
+
+    }
+
+    .contact {
+        padding: 20px 0px 20px 9px;
+        margin: 0px 0px 0px 0px;
+        font-size: 16px;
+
+    }
+
+    a {
+        font-size: 16px;
+        color: rgb(99, 66, 232);
+    }
+
+    a:hover {
+        color: red;
+    }
+
+    .emaill {
+        font-size: 10px;
+        color: rgb(99, 66, 232);
+        padding: 0px 0px 0px 0px;
+        position: relative;
+        left: 0px;
+        top: -38px;
+        margin: 0px 0px 0px 0px;
+    }
+
+    .me {
+
+        border: 4px dashed orange;
+        border-color: rgb(254, 30, 60) white rgb(66, 66, 255) rgb(99, 255, 64);
+        border-radius: 50px;
+        margin-right: 160px;
+        position: relative;
+        bottom: 0px;
+        top: 625px;
+        right: 0px;
+        left: 116px;
+        width: 230px;
+
+
+    }
+}
+
+@media only screen and (max-width:330px) {
+    .main {
+        margin-top: 2660px;
+        width: 90vw;
+        height: 25vh;
+        margin-left: 80px;
+
+    }
+
+    .footer {
+        height: 80vh;
+        width: 90vw;
+        margin-right: -60px;
+    }
+
+    .aboutMe {
+        border: 2px solid rgb(206, 27, 255);
+        border-radius: 40px;
+        font-family: "Mochiy Pop P One", sans-serif;
+        width: 90vw;
+        height: 1040px;
+        font-size: 20px;
+        padding: 90px 0px 0px 20px;
+        margin-left: 65px;
+
+    }
+
+    .me {
+
+        border: 4px dashed orange;
+        border-color: rgb(254, 30, 60) white rgb(66, 66, 255) rgb(99, 255, 64);
+        border-radius: 50px;
+        margin-right: 160px;
+        position: relative;
+        bottom: 0px;
+        top: 625px;
+        right: 0px;
+        left: 130px;
+        width: 230px;
+
+
+    }
+}
+
+@media only screen and (max-width:300px) {
+    .main {
+        margin-top: 2760px;
+        width: 90vw;
+        height: 20vh;
+        margin-left: 85px;
+
+    }
+
+    .footer {
+        height: 50vh;
+        width: 90vw;
+        margin-right: -60px;
+    }
+
+    .aboutMe {
+        border: 2px solid rgb(206, 27, 255);
+        border-radius: 40px;
+        font-family: "Mochiy Pop P One", sans-serif;
+        width: 90vw;
+        height: 1040px;
+        font-size: 20px;
+        padding: 90px 0px 0px 20px;
+        margin-left: 80px;
+
+    }
+
+    .me {
+        position: relative;
+        bottom: 0px;
+        top: 630px;
+        right: 0px;
+        left: 135px;
+        width: 210px;
+
+
+    }
+}
